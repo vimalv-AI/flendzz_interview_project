@@ -14,7 +14,7 @@ Work Time
 
 * Recevied on 29 
 * start on 30/11/2021 (11 pm to 12)
-* and 1/11/2021 (1 pm to 2)  & (8 to 10)
+* and 1/11/2021 (1 pm to 3)  & (8 to 10)
 
 Task: Create a student result analysis application
 Description:
