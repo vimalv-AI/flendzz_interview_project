@@ -6,22 +6,32 @@ exports.addStudent = async (req, res) =>{
     try{
         console.log(req.body.mark);
          
+         
         if(req.body.mark > 0 && req.body.mark <= 50){
             grade = "Fail";
-            console.log("1");
+           
         }
-        if(req.body.mark >= 51 && req.body.mark <= 70){
-            grade = "C+";
-            console.log("2");
+        if(req.body.mark >= 51 && req.body.mark <= 60){
+            grade = "E+";
+         
+        }
+        if(req.body.mark >= 61 && req.body.mark <= 70){
+            grade = "D+";
+        
         }
         if(req.body.mark >= 71 && req.body.mark <= 80){
+            grade = "C+";
+         
+        }
+        if(req.body.mark >= 81 && req.body.mark <= 90){
             grade = "B+";
-            console.log("3");
+        
         }
-        if(req.body.mark >= 81 && req.body.mark <= 100){
+        if(req.body.mark >= 91 && req.body.mark <= 100){
              grade = "A+";
-            console.log("4");
+        
         }
+ 
  
         const student = new Student({
             _id:req.body._id,
