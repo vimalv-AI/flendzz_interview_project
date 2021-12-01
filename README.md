@@ -3,6 +3,9 @@
 # npm install
 # npm start
 
+# Port Runing on http://localhost:8080 
+
+
 Mongodb (local sever)
 
 nodejs (backend)
