@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const studentSchema = new Schema(
 {
     _id: {type:String,required:[true, "ID Required"]},
-    name: {type:String,required:[true, "Name Required"]},
+    name: {type:String,required:[true, "Name Required"], maxLength: 200},
     dob: {type:Date,required:[true, "Roll Number Required"]},
     mark: {type:Number,required:[true, "Mark Required"]},
     grade: {type:String},
