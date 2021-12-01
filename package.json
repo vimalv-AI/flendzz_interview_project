@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "task curd operation and student database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "vimal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-form": "^0.12.6",
+    "form-json": "^2.1.0",
+    "http": "^0.0.1-security",
+    "http-errors": "^1.8.1",
+    "mongodb": "^4.2.0",
+    "mongoose": "^5.8.7",
+    "mongoose-date-format": "^1.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
